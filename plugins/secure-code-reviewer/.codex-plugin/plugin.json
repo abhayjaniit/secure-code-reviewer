@@ -1,0 +1,35 @@
+{
+  "name": "secure-code-reviewer",
+  "version": "1.0.0",
+  "description": "Security review and safe dependency maintenance for Node.js, Angular, Ionic Angular, React/Vite, Express, and NestJS projects.",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "nodejs",
+    "angular",
+    "ionic",
+    "react",
+    "express",
+    "nestjs",
+    "dependency-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Secure Code Reviewer",
+    "shortDescription": "Security review and dependency risk triage.",
+    "longDescription": "Run conservative, read-only security reviews for JavaScript and TypeScript codebases, report package vulnerabilities and unsafe frontend/backend patterns, and plan incremental fixes before any code changes begin.",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Review",
+      "Analysis"
+    ],
+    "defaultPrompt": [
+      "Use $secure-code-reviewer to review this project for security risks.",
+      "Use $secure-code-reviewer to plan safe dependency updates."
+    ]
+  }
+}

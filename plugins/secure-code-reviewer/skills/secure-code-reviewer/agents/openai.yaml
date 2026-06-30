@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secure Code Reviewer"
+  short_description: "Security review and safe dependency triage"
+  default_prompt: "Use $secure-code-reviewer to review this Node, Angular, Ionic, React, Express, or NestJS project for security risks before making changes."

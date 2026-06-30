@@ -1,0 +1,20 @@
+{
+  "name": "secure-code-reviewer-marketplace",
+  "interface": {
+    "displayName": "Secure Code Reviewer"
+  },
+  "plugins": [
+    {
+      "name": "secure-code-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/secure-code-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
