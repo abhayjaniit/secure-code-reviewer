@@ -1,6 +1,6 @@
 {
   "name": "secure-code-reviewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Security review and safe dependency maintenance for Node.js, Angular, Ionic Angular, React/Vite, Express, and NestJS projects.",
   "author": {
     "name": "Local developer"
@@ -28,8 +28,8 @@
       "Analysis"
     ],
     "defaultPrompt": [
-      "Use $secure-code-reviewer to review this project for security risks.",
-      "Use $secure-code-reviewer to plan safe dependency updates."
+      "Use Secure Code Reviewer:secure-code-reviewer to review this project for security risks.",
+      "Use Secure Code Reviewer:secure-code-reviewer to plan safe dependency updates."
     ]
   }
 }

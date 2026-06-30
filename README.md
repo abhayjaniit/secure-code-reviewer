@@ -20,23 +20,31 @@ https://github.com/abhayjaniit/secure-code-reviewer
 
 ## Use The Plugin
 
-Open the project you want to review in Codex, then ask:
+Open the project you want to review in Codex. In the message box, type `$secure` and select the skill named:
 
 ```text
-Use $secure-code-reviewer to review this project for security risks.
+Secure Code Reviewer:secure-code-reviewer
+```
+
+Then ask:
+
+```text
+Use Secure Code Reviewer:secure-code-reviewer to review this project for security risks.
 ```
 
 For dependency-focused review:
 
 ```text
-Use $secure-code-reviewer to review package vulnerabilities and plan safe dependency updates.
+Use Secure Code Reviewer:secure-code-reviewer to review package vulnerabilities and plan safe dependency updates.
 ```
 
 For a full-stack project:
 
 ```text
-Use $secure-code-reviewer to review this frontend/backend project and create a safe fix plan.
+Use Secure Code Reviewer:secure-code-reviewer to review this frontend/backend project and create a safe fix plan.
 ```
+
+If Codex does not show that skill name after typing `$secure`, the plugin is not loaded in the current thread. Install or enable the plugin, then start a new Codex thread.
 
 ## What To Expect
 
